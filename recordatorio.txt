@@ -1,0 +1,18 @@
+Esta pagina fue echa para la rosticeria el Dorado, ubicado en Tehuacan, manejo lo que es:
+Punto de Venta en linea y usa:
+Trabajador
+Admin
+Roles
+
+Impresion de Ticket: Error aun
+
+Roles:
+
+Usuario:
+
+Admin
+L - 1234
+
+Job
+Dorado - 1234
+
