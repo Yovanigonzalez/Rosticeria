@@ -1,13 +1,9 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Configura la conexión a la base de datos (reemplaza los valores con los tuyos)
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "pollo";
+// Conexión a la base de datos (reemplaza con tus propios valores)
+include '../sql/conexion.php';
 
-    // Crea una conexión a la base de datos
-    $conn = new mysqli($servername, $username, $password, $dbname);
 
     // Verifica la conexión
     if ($conn->connect_error) {

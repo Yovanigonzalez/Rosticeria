@@ -1,19 +1,17 @@
 <?php
 // Conexión a la base de datos
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "pollo";
-
-$conn = new mysqli($servername, $username, $password, $database);
+include '../sql/conexion.php';
 
 // Verificar la conexión
 if ($conn->connect_error) {
     die("La conexión a la base de datos ha fallado: " . $conn->connect_error);
 }
 
-// Consulta SQL para obtener el total de ventas en todas las fechas
-$sql = "SELECT SUM(total) AS total_ventas FROM ventas";
+// Obtener la fecha actual (puedes cambiarla a la fecha que desees)
+$fechaElegida = date("Y-m-d");
+
+// Consulta SQL para obtener el total de ventas en una fecha específica
+$sql = "SELECT SUM(total) AS total_ventas FROM ventas WHERE DATE(fecha_hora) = '$fechaElegida'";
 
 $result = $conn->query($sql);
 
@@ -28,6 +26,6 @@ if ($result->num_rows > 0) {
     // Cerrar la conexión
     $conn->close();
 } else {
-    echo "No se encontraron ventas.";
+    echo "No se encontraron ventas para la fecha seleccionada.";
 }
 ?>

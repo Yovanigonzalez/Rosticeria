@@ -80,44 +80,16 @@ if (isset($_SESSION['nombre_usuario'])) {
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
 
-
-<li class="nav-item">
-  <a href="inventario.php" class="nav-link">
-    <i class="nav-icon fas fa-tag"></i> <!-- Cambiar "fa-box" por "fa-tag" -->
-    <p>
-      Inventario
-    </p>
-  </a>
-</li>
-
-
-            <!--<li class="nav-item">
-              <a href="inventario.php" class="nav-link">
-                <i class="nav-icon fas fa-box"></i>
-                <p>
-                  Acciones
-                </p>
-              </a>
-            </li>-->
-
-
            <li class="nav-item">
-              <a href="entradas.php" class="nav-link">
+              <a href="inventario.php" class="nav-link">
                 <i class="nav-icon fas fa-sign-in-alt"></i>
                 <p>
-                  Entradas
+                  Inventario
                 </p>
               </a>
             </li>
 
-            <li class="nav-item">
-              <a href="corte.php" class="nav-link">
-                <i class="nav-icon fas fa-cash-register"></i>
-                <p>
-                  Corte de Caja
-                </p>
-              </a>
-            </li>
+
 
             <li class="nav-item">
               <a href="logout.php" class="nav-link">

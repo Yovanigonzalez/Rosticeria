@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "p"; // Nombre de la base de datos
+$dbname = "pollo"; // Nombre de la base de datos
 
 // Obtener los datos enviados por la solicitud POST
 $categoria = $_POST['categoria'];

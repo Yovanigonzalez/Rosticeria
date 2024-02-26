@@ -1,11 +1,6 @@
 <?php
 // Establecer la conexión a la base de datos (reemplaza los valores con los de tu configuración)
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "pollo";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
+include 'sql/conexion.php';
 
 // Verificar la conexión
 if ($conn->connect_error) {

@@ -1,5 +1,5 @@
 <?php
-include 'conexion.php';
+include 'sql/conexion.php';
 
 // Define un objeto que mapea la descripción al precio correspondiente
 $precioMapping = array(

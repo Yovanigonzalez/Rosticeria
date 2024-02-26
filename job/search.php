@@ -1,9 +1,7 @@
 <?php
 // Configuración de la base de datos (misma configuración que en tu código principal)
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "p";
+include '../sql/conexion.php';
+
 
 // Inicializa la conexión a la base de datos utilizando PDO
 try {

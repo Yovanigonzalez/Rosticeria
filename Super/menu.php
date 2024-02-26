@@ -79,6 +79,117 @@ if (isset($_SESSION['nombre_usuario'])) {
         <nav class="mt-2">
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
+ <<li class="nav-item">
+          <a href="#" class="nav-link">
+          <i class="nav-icon fas fa-utensils"></i> <!-- Cambiar "fa-flask" por "fa-utensils" -->  <p>
+    Agregar Pollo 'Promocion'
+    <i class="right fas fa-angle-left"></i>
+  </p>
+</a>
+
+  <!--Submenú de Agregar Pollo -->
+  <ul class="nav nav-treeview">
+    <li class="nav-item">
+      <a href="pollo.php" class="nav-link">
+        <i class="far fa-dot-circle nav-icon"></i>
+        <p>Agregar</p>
+      </a>
+    </li>
+    <!--<li class="nav-item">
+      <a href="crud_tendencia.php" class="nav-link">
+        <i class="far fa-dot-circle nav-icon"></i>
+        <p>Acciones</p>
+      </a>
+    </li>-->
+  </ul>
+</li>
+
+
+<li class="nav-item">
+<a href="#" class="nav-link">
+<i class="nav-icon fas fa-utensils"></i> <!-- Cambiar "fa-flask" por "fa-utensils" -->
+  <p>
+    Agregar pollo sin 'Promocion'
+    <i class="right fas fa-angle-left"></i>
+  </p>
+</a>
+
+  <!-- Submenú de Agregar Extra--> 
+  <ul class="nav nav-treeview">
+    <li class="nav-item">
+      <a href="sn_promo.php" class="nav-link">
+        <i class="far fa-dot-circle nav-icon"></i>
+        <p>Agregar</p>
+      </a>
+    </li>
+    <!--<li class="nav-item">
+      <a href="crud_feremonas.php" class="nav-link">
+        <i class="far fa-dot-circle nav-icon"></i>
+        <p>Acciones</p>
+      </a>
+    </li>-->
+  </ul>
+</li>
+
+<li class="nav-item">
+  <a href="#" class="nav-link">
+  <i class="nav-icon fas fa-utensils"></i> <!-- Cambiar "fa-flask" por "fa-utensils" -->
+      <p>
+      Agregar Extra
+      <i class="right fas fa-angle-left"></i>
+    </p>
+  </a>
+
+  <!-- Submenú de Agregar Extra -->
+  <ul class="nav nav-treeview">
+    <li class="nav-item">
+      <a href="extra.php" class="nav-link">
+        <i class="far fa-dot-circle nav-icon"></i>
+        <p>Agregar</p>
+      </a>
+    </li>
+    <!--<li class="nav-item">
+      <a href="crud_esencia.php" class="nav-link">
+        <i class="far fa-dot-circle nav-icon"></i>
+        <p>Acciones</p>
+      </a>
+    </li>-->
+  </ul>
+</li>
+
+<li class="nav-item">
+<a href="#" class="nav-link">
+<i class="nav-icon fas fa-utensils"></i> <!-- Cambiar "fa-flask" por "fa-utensils" -->  <p>
+    Costilla de Puerco
+    <i class="right fas fa-angle-left"></i>
+  </p>
+</a>
+
+  <!--Submenú de Agregar Extra -->
+  <ul class="nav nav-treeview">
+    <li class="nav-item">
+      <a href="costilla.php" class="nav-link">
+        <i class="far fa-dot-circle nav-icon"></i>
+        <p>Agregar</p>
+      </a>
+    </li>
+    <!--<li class="nav-item">
+      <a href="n_r_1_2.php" class="nav-link">
+        <i class="far fa-dot-circle nav-icon"></i>
+        <p>Acciones</p>
+      </a>
+    </li>-->
+  </ul>
+</li>
+
+<li class="nav-item">
+  <a href="acciones.php" class="nav-link">
+    <i class="nav-icon fas fa-cog"></i> <!-- Cambiar "fa-box" por "fa-cog" -->
+    <p>
+      Acciones
+    </p>
+  </a>
+</li>
 
 
 <li class="nav-item">

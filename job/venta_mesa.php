@@ -1,13 +1,8 @@
 <?php include 'menu.php' ?>
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "p"; // Nombre de la base de datos
+include '../sql/conexion.php';
 
-// Crear una conexión
-$conn = new mysqli($servername, $username, $password, $dbname);
 
 // Verificar la conexión
 if ($conn->connect_error) {
@@ -15,7 +10,7 @@ if ($conn->connect_error) {
 }
 
 // Consulta SQL para obtener todos los productos de la tabla 'productos'
-$sqlProductos = "SELECT id, cantidad, descripcion, precio, categoria FROM productos";
+$sqlProductos = "SELECT id, cantidad, descripcion, precio, categoria FROM producto";
 $resultProductos = $conn->query($sqlProductos);
 ?>
 
